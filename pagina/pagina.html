@@ -8,9 +8,17 @@
 <body>
   <img src="../statics/tecmilogo.png" alt="TecMilenio Logo" width="150">
 
-
   <h1>Nombre: Emiliano</h1>
   <p>Correo: AL07086723@tecmilenio.mx</p>
+
+  <!-- Botón -->
+  <button onclick="mostrarInfo()">Mostrar Matrícula y Foto</button>
+
+  <script>
+    function mostrarInfo() {
+      alert("Matrícula: AL07086723");
+      window.open("../statics/mi-foto.jpg", "_blank", "width=400,height=400");
+    }
+  </script>
 </body>
 </html>
-
